@@ -1,4 +1,4 @@
-![Image](https://i.imgur.com/kn1Oir0.png)
+![Image](https://i.imgur.com/W141e1T.png)
 
 ## Active Directory Installation 
 
