@@ -23,4 +23,6 @@ Azure will inherently set the IP address of the VM to dynamic. This is not condu
 
 ![Image](
 
-Begin by going to your DC-1 virtual machine settings. click Network Settings, the hyperlink that follows Network interface (for my case: dc-1101_z1,) IP configurations, ip config 1, switch Allocation from Dynamic to Static, Save.
+![Image](
+
+Begin by going to your DC-1 virtual machine settings. Click on **Network Settings**, then the hyperlink that follows **Network interface** (in my case: dc-1101_z1). Next, navigate to **IP configurations**, select **IP config 1**, and switch the **Allocation** from **Dynamic** to **Static**. Finally, click **Save**.
