@@ -33,5 +33,5 @@ Next, we shall set the Cient's DNS settings. Copy the private IP address of DC-1
 
 ![Image](https://i.imgur.com/kUbptyu.png)
 
-Follow the previous stpe for navigation to Client's network interface settings, instead of IP configurations, we will be clicking DNS servers, click Custom under DNS servers, and input the private IP that we copied from DC-1, and Save. Return to the Overview of Client (not the Client's Network interface) and restart the VM to allow the changes to take effect. 
+Follow the previous steps to navigate to DC-1's network interface settings for Client. Instead of selecting **IP configurations**, click on **DNS servers**. Then, choose **Custom** under DNS servers and input the private IP that you copied from DC-1. Save your settings. After making these changes, return to the **Overview** of Client (not the Client's Network interface) and restart the VM to allow the changes to take effect.
 
