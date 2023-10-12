@@ -26,3 +26,12 @@ Azure will inherently set the IP address of the VM to dynamic. This is not condu
 ![Image](https://i.imgur.com/xYqLawL.png)
 
 Begin by going to your DC-1 virtual machine settings. Click on **Network Settings**, then the hyperlink that follows **Network interface** (in my case: dc-1101_z1). Next, navigate to **IP configurations**, select **IP config 1**, and switch the **Allocation** from **Dynamic** to **Static**. Finally, click **Save**.
+
+![Image](https://i.imgur.com/DNngp7N.png) 
+
+Next, we shall set the Cient's DNS settings. Copy the private IP address of DC-1. This will allow us to manually ensure our VMs are linked for the active directory process.
+
+![Image](https://i.imgur.com/kUbptyu.png)
+
+Follow the previous stpe for navigation to Client's network interface settings, instead of IP configurations, we will be clicking DNS servers, click Custom under DNS servers, and input the private IP that we copied from DC-1, and Save. Return to the Overview of Client (not the Client's Network interface) and restart the VM to allow the changes to take effect. 
+
