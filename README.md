@@ -57,7 +57,7 @@ Back on DC-1, open Server Manager (if it is not already), click on Add roles and
 ![Image](https://i.imgur.com/PEx7SOp.png)
 
 
-After installation has concluded you will be booted out of the VM so the server can be finalized. To reconne, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice. Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
+After installation has concluded you will be booted out of the VM so the server can be finalized. To reconne, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice for DC-1 henceforth . Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
 
 User name: (Domain name\Username)
 
