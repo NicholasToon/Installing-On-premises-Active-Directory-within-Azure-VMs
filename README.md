@@ -21,8 +21,8 @@ Before we configure the Domain Controller's ip, we will need to create the Domai
 
 Azure will inherently set the IP address of the VM to dynamic. This is not conducive to our exercise involving the client because if both VMs have dynamic IPs, they will be unable to communicate with each other. So, to ensure that the client will be able to join the domain created on DC-1 in the future, we will switch the IP configuration from dynamic to static.
 
-![Image](
+![Image](https://i.imgur.com/P6oe87S.png)
 
-![Image](
+![Image](https://i.imgur.com/xYqLawL.png)
 
 Begin by going to your DC-1 virtual machine settings. Click on **Network Settings**, then the hyperlink that follows **Network interface** (in my case: dc-1101_z1). Next, navigate to **IP configurations**, select **IP config 1**, and switch the **Allocation** from **Dynamic** to **Static**. Finally, click **Save**.
