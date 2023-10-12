@@ -58,7 +58,7 @@ To finish installing Active Directory, click on the flag with a caution sign adj
 ![Image](https://i.imgur.com/PEx7SOp.png)
 
 
-After installation has concluded you will be booted out of the VM so the server can be finalized. To reconne, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice for DC-1 henceforth. Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
+After installation has concluded you will be booted out of the VM so the server can be finalized. To reconnet, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice for DC-1 henceforth. Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
 
 After the installation has concluded, you will be logged out of the VM so the server can be finalized. To reconnect, follow the same steps you've done before, but when it comes to the credentials,  your previous login will not suffice for DC-1 henceforth. Instead, you will need to log in with the context of the domain indicated in the text.
 
