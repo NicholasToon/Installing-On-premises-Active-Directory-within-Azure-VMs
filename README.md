@@ -39,6 +39,6 @@ Follow the previous steps to navigate to DC-1's network interface settings for C
 
 ![Image](https://i.imgur.com/RhVDpYE.png)
 
-Lastly, we will enable ICMPv4 on the DC-1 Windows Firewall. Type **wf.msc** in the DC-1's search bar to open Windows Defender Firewall (or simply type **Windows Defender Firewall**). Navigate to **Inbound Rules**, scroll down to find **Core Networking Diagnostics - ICMP Echo**, and enable the rule. After enabling the rule, return to the Client, and pinging will be received, whereas it would have been previously denied.
+Lastly, we will enable ICMPv4 on the DC-1 Windows Firewall. Type **wf.msc** in the DC-1's search bar to open Windows Defender Firewall (or simply type **Windows Defender Firewall**). Navigate to **Inbound Rules**, scroll down to find **Core Networking Diagnostics - ICMP Echo**, and enable the rule. After enabling the rule, return to the Client, and pinging will be received, whereas it would have been previously time out.
 
 
