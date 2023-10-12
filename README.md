@@ -51,14 +51,22 @@ Lastly, we will enable ICMPv4 on the DC-1 Windows Firewall. Type **wf.msc** in t
 
 ![Image](https://i.imgur.com/pIgbfty.png)
 
+Back on DC-1, open **Server Manager** (if it is not already open). Click on **Add roles and features**. Proceed through the next screens by clicking **Next** three times. Under **Server roles**, check **Active Directory Domain Services** and also click **Add Features.** Click **Next** three more times, and then click **Install**.
 
-Back on DC-1, open Server Manager (if it is not already), click on Add roles and features, Next x3, on Server roles check Active Directory Domain Services, Add Features, Next x3, Install. To finish instakkubg Active Directory, click the flag with a caution sign adjacent to it, promote this server to a domain controller, Select deployment operation: Add a new forest, enter a name for your domain (my e.g. mydomain.com) and press Next, enter a password (You may use whatever as it will not matter for rest of the process,) Next x5, and install. 
+To finish installing Active Directory, click on the flag with a caution sign adjacent to it. Choose **Promote this server to a domain controller**. Select the deployment operation: **Add a new forest**. Enter a name for your domain (for example, "mydomain.com") and press **Next**. Enter a password (you can use any password as it will not matter for the rest of the process). Click **Next** five more times, and then click **Install**.
 
 ![Image](https://i.imgur.com/PEx7SOp.png)
 
 
 After installation has concluded you will be booted out of the VM so the server can be finalized. To reconne, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice for DC-1 henceforth . Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
 
-User name: (Domain name\Username)
+After the installation has concluded, you will be logged out of the VM so the server can be finalized. To reconnect, follow the same steps you've done before, but when it comes to the credentials,  your previous login will not suffice for DC-1 henceforth. Instead, you will need to log in with the context of the domain indicated in the text.
+
+This login would look something like this: For me, it will be:
+
+- User name: mydomain.com\Labuser
+- The password has not changed from generation.
+
+Please replace "mydomain.com" with the actual domain name you specified during the setup, and "Labuser" with your specific username. Use the same password you originally set during the virtual machines generation.
 
 
