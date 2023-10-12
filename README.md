@@ -35,9 +35,10 @@ Next, we shall set the Cient's DNS settings. Copy the private IP address of DC-1
 
 Follow the previous steps to navigate to DC-1's network interface settings for Client. Instead of selecting **IP configurations**, click on **DNS servers**. Then, choose **Custom** under DNS servers and input the private IP that you copied from DC-1. Save your settings. After making these changes, return to the **Overview** of Client (not the Client's Network interface) and restart the VM to allow the changes to take effect.
 
+![Image](https://i.imgur.com/hifXrhU.png)
+
+![Image](https://i.imgur.com/RhVDpYE.png)
+
 Lastly, we will enable ICMPv4 on the DC-1 Windows Firewall. Type **wf.msc** in the DC-1's search bar to open Windows Defender Firewall (or simply type **Windows Defender Firewall**). Navigate to **Inbound Rules**, scroll down to find **Core Networking Diagnostics - ICMP Echo**, and enable the rule. After enabling the rule, return to the Client, and pinging will be received, whereas it would have been previously denied.
 
----
-
-## Progress Test
 
