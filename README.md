@@ -15,7 +15,7 @@ With this tutorial, we will install Active Directory on-premises within Microsof
 - Windows Server 2022
 - Windows 10 (21H2)
 
-## Installation
+## Set-Up
 
 Before we configure the Domain Controller's ip, we will need to create the Domain Controller itself (DC-1). The Process is quite simple. Create a virtual machine as we have done in previous turtorials, set it as Windows server 2022 for the image, Make sure to keep track of your login credentials!
 
@@ -40,5 +40,25 @@ Follow the previous steps to navigate to DC-1's network interface settings for C
 ![Image](https://i.imgur.com/RhVDpYE.png)
 
 Lastly, we will enable ICMPv4 on the DC-1 Windows Firewall. Type **wf.msc** in the DC-1's search bar to open Windows Defender Firewall (or simply type **Windows Defender Firewall**). Navigate to **Inbound Rules**, scroll down to find **Core Networking Diagnostics - ICMP Echo**, and enable the rule. After enabling the rule, return to the Client, and pinging will be received, whereas it would have been previously time out.
+
+---
+
+## Installation 
+
+![Image](https://i.imgur.com/7JXGzmP.png)
+
+![Image](https://i.imgur.com/H3Lo618.png)
+
+![Image](https://i.imgur.com/pIgbfty.png)
+
+
+Back on DC-1, open Server Manager (if it is not already), click on Add roles and features, Next x3, on Server roles check Active Directory Domain Services, Add Features, Next x3, Install. To finish instakkubg Active Directory, click the flag with a caution sign adjacent to it, promote this server to a domain controller, Select deployment operation: Add a new forest, enter a name for your domain (my e.g. mydomain.com) and press Next, enter a password (You may use whatever as it will not matter for rest of the process,) Next x5, and install. 
+
+![Image](https://i.imgur.com/PEx7SOp.png)
+
+
+After installation has concluded you will be booted out of the VM so the server can be finalized. To reconne, you will do as you have done before, but when it comes to the credentials, your previous login will not suffice. Instead, you will need to login the the context of the domain indicated in the text. What does this look like? Well, for me it will be User name: mydomain.com\Labuser, Password has not changed from generation.
+
+User name: (Domain name\Username)
 
 
