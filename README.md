@@ -13,7 +13,7 @@ With this tutorial, we will install Active Directory on-premises within Microsof
 ## Operating Systems Used
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 Pro (22H2)
 
 ## Set-Up
 
