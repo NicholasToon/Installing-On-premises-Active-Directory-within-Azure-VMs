@@ -2,7 +2,7 @@
 
 ## Active Directory Installation 
 
-With this tutorial, we will install Active Directory on-premises within Microsoft Azure. The process will involve using two virtual machines that operate on the same VNet. For now, we will utilize VM1, which will host the Active Directory and be configured as the Domain Controller. VM2 will serve as the client to simulate the everyday use of a computer in scenarios such as a business or school environment.
+With this tutorial, we will install Active Directory on-premises within Microsoft Azure. The process will involve using two virtual machines that operate on the same VNet. For now, we will utilize VM1, which will host the Active Directory and be configured as the Domain Controller (DC-1), while VM2 will serve as the client (CLIENT) to simulate the everyday use of a computer in scenarios such as a business or school environment.
 
 ## Environments and Technologies Used
 
