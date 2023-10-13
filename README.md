@@ -67,7 +67,7 @@ This login would look something like this: For me, it will be:
 - User name: mydomain.com\Labuser
 - The password has not changed from generation.
 
-Please replace "mydomain.com" with the actual domain name you specified during the setup, and "Labuser" with your specific username. Use the same password you originally set during the virtual machines generation.
+Please replace "mydomain.com" with the actual domain name you specified during the setup, and "Labuser" with your specific username. Use the same password you originally set during the virtual machine's generation.
 
 ---
 This concludes the setup and installation of Active Directory. From [here](https://github.com/NicholasToon/Configuring-On-premises-Active-Directory-within-Azure-VMs), we will configure the directory to enable us to explore topics such as DNS and file sharing.
